@@ -1,0 +1,17 @@
+# Ignore uploaded files in storage
+/storage/files/*
+!/storage/files/.gitkeep
+!/storage/files/.htaccess
+
+# Ignore logs and temp files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
